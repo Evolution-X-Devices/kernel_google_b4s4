@@ -32,7 +32,7 @@ ifeq ($(KSU_GITHUB_VERSION),)
     $(eval KSU_VERSION := $(shell expr 10000 + $(KSU_LOCAL_VERSION) + 200))
     $(info -- KernelSU-Next version (local .git): $(KSU_VERSION))
   else
-    $(eval KSU_VERSION := 11998)
+    $(eval KSU_VERSION := 12797)
     $(warning -- Could not fetch version online or via local .git! Using fallback version: $(KSU_VERSION))
   endif
 else
